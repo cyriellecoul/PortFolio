@@ -10626,10 +10626,15 @@ section#team {
 
 .team-member h4 {
     margin-top: 1.5rem;
-    margin-bottom: 0;
+
 }
 
 .team-member #email {
+
+    font-size: 20px;
+}
+.team-member #tele {
+    padding: 0%;
     font-size: 20px;
 }
 
@@ -10654,6 +10659,9 @@ section#team {
     .team-member #email {
         font-size: 15px;
     }
+    .team-member #tele {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -10668,6 +10676,9 @@ section#team {
         font-size: 20px;
     }
     .team-member #email {
+        font-size: 15px;
+    }
+    .team-member #tele {
         font-size: 15px;
     }
     .team-member {
