@@ -7,6 +7,7 @@
     <meta property="og:image" content="./assets/img/portfolio/responsive.png" />
     <title>Cyrielle Coulais - PORTFOLIO</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
@@ -260,11 +261,9 @@
                 <a class="btn btn-dark btn-social mx-2" href="mailto:cyriellecoul@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
                 <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/cyrielle-c/"><i class="fab fa-linkedin-in"></i></a>
                 <br>
-                <p id="CV">CV
-                    <a href="/assets/CV _ Cyrielle Coulais.pdf"><img src="assets/img/cv_icon.png" alt="">
-
-                    </a>
-                </p>
+                <div id="CV">CV
+                    <a onclick="openCV()"><img src="assets/img/cv_icon.png" alt="CV"> </a>
+                </div>
             </div>
         </div>
     </section>
