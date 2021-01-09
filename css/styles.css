@@ -348,6 +348,10 @@ progress {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+#CV a {
+    cursor: pointer;
+}
+
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
     height: auto;
@@ -10636,6 +10640,7 @@ section#team {
 }
 
 .team-member #email {
+    margin-top: -10px;
     font-size: 20px;
 }
 
